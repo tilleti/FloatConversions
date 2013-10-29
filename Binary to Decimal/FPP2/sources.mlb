@@ -1,0 +1,11 @@
+(* ML Basis system *)
+(* http://mlton.org/MLBasis *)
+
+local
+   $(SML_LIB)/basis/basis.mlb
+   infrat.sml
+   fpp2.sml
+in
+   structure InfRat
+   structure FPP2
+end

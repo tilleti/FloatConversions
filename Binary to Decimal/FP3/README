@@ -1,0 +1,26 @@
+Algorithm FP3: Fixed-Point Fraction Printout
+
+INPUT FORMAT
+<B> <b> <n> <f1> <f2> <f3> ... <fn>
+
+B => radix of output
+b => radix of input
+n => number of digits in input fraction
+
+f1 f2 ... fn => digits of fraction f
+f in [0, 1)
+f = .f1f2...fn
+
+OUTPUT
+N => number of digits in output fraction
+F => F1 F2 ... FN (digits of output fraction)
+
+
+
+EXAMPLES
+
+INPUT: 10 2 2 1 1
+OUTPUT: 7
+
+INPUT: 10 2 4 1 1
+OUTPUT: 7 5

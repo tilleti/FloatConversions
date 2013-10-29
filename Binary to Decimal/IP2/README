@@ -1,0 +1,23 @@
+Algorithm IP2: Indefinite Precision Integer Printout
+
+INPUT FORMAT
+<B> <b> <h> <n> <dh> <d(h-1)> <d(h-2)> ... <d1>
+
+B => radix of output
+b => radix of input
+h => number of digits in the input
+n => number of trailing zeroes in the input
+
+dh d(h-1) ... d0 => digits of integer d
+d = dh d(h-1) d(h-2) ... d(n+1) <n zeroes>
+
+OUTPUT
+N => number of trailing zeroes in output
+D => DH D(H-1) ... D(N+1) (digits of output integer, excluding trailing zeroes)
+
+
+
+EXAMPLES
+
+INPUT: 10 2 6 0 1 0 1 0 1 1
+OUTPUT: 4 3

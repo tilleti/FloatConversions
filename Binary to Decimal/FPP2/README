@@ -1,0 +1,30 @@
+Algorithm FPP2: Fixed-Precision Positive Floating-Point Printout
+
+INPUT FORMAT
+<B> <b> <e> <p> <f1> <f2> <f3> ... <fp>
+
+B => radix of output
+b => radix of input
+e => exponent
+p => precision
+
+f1 f2 ... fp => digits of input f (integer)
+input value = f * b^(e-p)
+
+OUTPUT
+N => exponent
+F => F1 F2 ... Fk (digits of output)
+
+
+EXAMPLES
+
+(* 
+   IEEE Single-Precision float as input
+   (* p (precision) = 24 *)
+   (* e = unbiased exponent + 1 *)
+   (* b = 2 *)
+   (* B = 10 *)
+   (* f = fractional part with '1' appended at the beginning *)
+*) 
+INPUT: 10 2 10 24 1 1 1 1 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+OUTPUT: N = -2, F = 9 7 5 7 5
