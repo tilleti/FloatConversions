@@ -1,0 +1,17 @@
+(* ML Basis system *)
+(* http://mlton.org/MLBasis *)
+
+local
+   $(SML_LIB)/basis/basis.mlb
+   infrat.sml
+   helper.sml
+   algor.sml
+   bellerophon.sml
+   main.sml
+in
+   structure InfRat
+   structure Helper
+   structure AlgoR
+   structure Bellerophon
+   structure Main
+end
